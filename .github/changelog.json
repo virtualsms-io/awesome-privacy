@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-14T10:28:13Z",
+  "generatedAt": "2026-07-18T18:21:24Z",
   "processedShas": [
     "02125ec429ec1ce9c5acdec1604703cb058a7887",
     "02231fb0a59ee43f93c6d0143640284cb7587d71",
@@ -331,7 +331,10 @@
     668,
     671,
     675,
-    677
+    677,
+    683,
+    684,
+    685
   ],
   "entries": [
     {
@@ -6492,6 +6495,26 @@
     }
   ],
   "rejections": [
+    {
+      "date": "2026-07-16",
+      "title": "Add OnDevicePDF in Online Tools",
+      "pr": {
+        "number": 684,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/684",
+        "author": "RaviChanduEdru",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/92777166?v=4"
+      }
+    },
+    {
+      "date": "2026-07-15",
+      "title": "[Add] Zooid in Team Collaboration",
+      "pr": {
+        "number": 683,
+        "url": "https://github.com/lissy93/awesome-privacy/pull/683",
+        "author": "orivibes",
+        "authorAvatar": "https://avatars.githubusercontent.com/u/103140410?v=4"
+      }
+    },
     {
       "date": "2026-07-13",
       "title": "Add pdfcevir under new Document Converters section",
