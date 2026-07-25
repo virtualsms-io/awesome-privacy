@@ -26,7 +26,7 @@ corporations, governments, and hackers from logging, storing or selling your per
 <summary>📋 <b>Contents</b></summary>
 
 - **Essentials**
-	- [Password Managers](#password-managers) (6)
+	- [Password Managers](#password-managers) (7)
 	- [2-Factor Authentication](#2-factor-authentication) (11)
 	- [File Encryption](#file-encryption) (3)
 	- [Browsers](#browsers) (5)
@@ -34,13 +34,13 @@ corporations, governments, and hackers from logging, storing or selling your per
 - **Communication**
 	- [Encrypted Messaging](#encrypted-messaging) (4)
 	- [P2P Messaging](#p2p-messaging) (4)
-	- [Encrypted Email](#encrypted-email) (5)
+	- [Encrypted Email](#encrypted-email) (4)
 	- [Email Clients](#email-clients) (6)
-	- [Mail Forwarding](#mail-forwarding) (6)
-	- [Email Security Tools](#email-security-tools) (2)
+	- [Mail Forwarding](#mail-forwarding) (4)
+	- [Email Security Tools](#email-security-tools) (3)
 	- [VOIP Clients](#voip-clients) (2)
 	- [Virtual Phone Numbers](#virtual-phone-numbers) (8)
-	- [Team Collaboration](#team-collaboration) (5)
+	- [Team Collaboration](#team-collaboration) (6)
 - **Security Tools**
 	- [Browser Extensions](#browser-extensions) (19)
 	- [Mobile Apps](#mobile-apps) (23)
@@ -51,9 +51,9 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Anonymity Networks](#anonymity-networks) (3)
 	- [Proxies](#proxies) (2)
 	- [DNS Providers](#dns-providers) (3)
-	- [DNS Clients](#dns-clients) (6)
-	- [Firewalls](#firewalls) (13)
-	- [Ad Blockers](#ad-blockers) (6)
+	- [DNS Clients](#dns-clients) (5)
+	- [Firewalls](#firewalls) (14)
+	- [Ad Blockers](#ad-blockers) (7)
 	- [Host Block Lists](#host-block-lists) (5)
 	- [Router Firmware](#router-firmware) (2)
 	- [Network Analysis](#network-analysis) (3)
@@ -72,30 +72,36 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [Secret Sharing](#secret-sharing) (3)
 	- [File Drop](#file-drop) (2)
 	- [Browser Sync](#browser-sync) (4)
+	- [Habit Trackers](#habit-trackers) (1)
 	- [Secure Conference Calls](#secure-conference-calls) (2)
+	- [Maps & Navigation](#maps--navigation) (1)
 - **Utilities**
 	- [Virtual Machines](#virtual-machines) (3)
 	- [PGP Managers](#pgp-managers) (8)
 	- [Metadata Removal](#metadata-removal) (3)
 	- [Data Erasers](#data-erasers) (8)
 - **Operating Systems**
-	- [Mobile Operating Systems](#mobile-operating-systems) (3)
+	- [Mobile Operating Systems](#mobile-operating-systems) (2)
 	- [Desktop Operating Systems](#desktop-operating-systems) (5)
 	- [Linux Defenses](#linux-defenses) (6)
-	- [Windows Defences](#windows-defences) (17)
+	- [Windows Defences](#windows-defences) (16)
 	- [Mac OS Defences](#mac-os-defences) (2)
 	- [Anti-Malware](#anti-malware) (2)
 - **Development**
 	- [Code Hosting](#code-hosting) (5)
+	- [IDEs](#ides) (1)
+	- [Terminal Emulators](#terminal-emulators) (1)
+	- [Developer Tools](#developer-tools) (3)
 - **Smart Home & IoT**
 	- [Smart Home](#smart-home) (1)
+	- [Security Cameras](#security-cameras) (1)
 - **Finance**
 	- [Cryptocurrencies](#cryptocurrencies) (2)
 	- [Crypto Wallets](#crypto-wallets) (7)
 	- [Crypto Exchanges](#crypto-exchanges) (2)
 	- [Virtual Credit Cards](#virtual-credit-cards) (2)
 	- [Other Payment Methods](#other-payment-methods) (3)
-	- [Secure Budgeting](#secure-budgeting) (6)
+	- [Secure Budgeting](#secure-budgeting) (7)
 - **Social**
 	- [Social Networks](#social-networks) (4)
 	- [Video Platforms](#video-platforms) (2)
@@ -103,12 +109,18 @@ corporations, governments, and hackers from logging, storing or selling your per
 	- [News Readers](#news-readers) (1)
 	- [Proxy Sites](#proxy-sites) (4)
 - **Media**
+	- [Gaming](#gaming) (1)
+	- [Video Players](#video-players) (1)
+	- [Photo Management](#photo-management) (2)
+	- [Podcast Players](#podcast-players) (1)
+	- [Torrent Downloaders](#torrent-downloaders) (1)
 	- [File Converters](#file-converters) (2)
 - **Creativity**
 	- [Image Editors](#image-editors) (8)
 	- [Video Editors](#video-editors) (7)
 	- [Audio Editors & Recorders](#audio-editors--recorders) (1)
 	- [Casting & Streaming](#casting--streaming) (1)
+	- [Screenshot Tools](#screenshot-tools) (1)
 	- [3D Graphics](#3d-graphics) (2)
 	- [Animation](#animation) (1)
 </details></blockquote>
@@ -118,11 +130,12 @@ corporations, governments, and hackers from logging, storing or selling your per
 ### Password Managers
 
 - **[<img src='https://icon.horse/icon/bitwarden.com' width='14' alt='' /> Bitwarden](https://bitwarden.com)** - Fully-featured, open source password manager with cloud-sync. Bitwarden is easy-to-use with a clean UI and client apps for desktop, web and mobile. See also [Vaultwarden](https://github.com/dani-garcia/vaultwarden), a self-hosted, Rust implementa[…](https://awesome-privacy.xyz/essentials/password-managers/bitwarden "View full Bitwarden report") 
-- **[<img src='https://icon.horse/icon/keepass.info' width='14' alt='' /> KeePass](https://keepass.info)** - Hardened, secure and offline password manager. Does not have cloud-sync baked in, deemed to be [gold standard](https://keepass.info/ratings.html) for secure password managers. KeePass clients: [Strongbox](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id897283731) *(Mac & iOS)*, [KeePassDX](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) *(Android)*,[…](https://awesome-privacy.xyz/essentials/password-managers/keepass "View full KeePass report") 
+- **[<img src='https://keepass.info/images/icons/keepass_256x256.png' width='14' alt='' /> KeePass](https://keepass.info)** - Hardened, secure and offline password manager. Does not have cloud-sync baked in, deemed to be [gold standard](https://keepass.info/ratings.html) for secure password managers. KeePass clients: [Strongbox](https://apps.apple.com/us/app/strongbox-keepass-pwsafe/id897283731) *(Mac & iOS)*, [KeePassDX](https://play.google.com/store/apps/details?id=com.kunzisoft.keepass.free) *(Android)*,[…](https://awesome-privacy.xyz/essentials/password-managers/keepass "View full KeePass report") 
 - **[<img src='https://icon.horse/icon/lesspass.com' width='14' alt='' /> LessPass](https://lesspass.com)** - LessPass is a little different, since it generates your passwords using a hash of the website name, your username and a single main-passphrase that you reuse. It omits the need for you to ever need to[…](https://awesome-privacy.xyz/essentials/password-managers/lesspass "View full LessPass report") 
 - **[<img src='https://icon.horse/icon/proton.me' width='14' alt='' /> ProtonPass](https://proton.me/pass)** - From the creators of ProtonMail, ProtonPass is a new addition to their suite of services. They have a full collection of user-friendly native mobile and desktop apps. ProtonPass is one of the few "tru[…](https://awesome-privacy.xyz/essentials/password-managers/protonpass "View full ProtonPass report") 
 - **[<img src='https://www.zx2c4.com/favicon.ico' width='14' alt='' /> Pass](https://www.passwordstore.org/)** - The Standard Unix Password Manager 
 - **[<img src='https://www.aliasvault.net/favicon.png' width='14' alt='' /> AliasVault](https://www.aliasvault.net)** - End-to-end encrypted open source password and alias manager with built-in email server. AliasVault protects your privacy by creating alternative identities, passwords and email addresses for every web[…](https://awesome-privacy.xyz/essentials/password-managers/aliasvault "View full AliasVault report") 
+- **[<img src='https://papervault.xyz/papervault-512.png' width='14' alt='' /> PaperVault](https://papervault.xyz)** - Store secrets and passwords on encrypted paper with distributed keys. Designed to last generations. Open source, client-side only, works offline. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -183,7 +196,6 @@ corporations, governments, and hackers from logging, storing or selling your per
 
 > Where possible, choose a cross-platform and well established encryption method, so that you are never faced with not being able to access your files using your current system.<br> Although well-established encryption methods are usually very secure, if the password is not strong, then an adversary may be able to gain access to your files, with a powerful enough GPU. If your system is compromised, then the password may also be able to be skimmed with a keylogger or other similar malware, so take care to follow good basic security practices
 
-
 </details>
 
 <details>
@@ -213,7 +225,6 @@ that makes a good alternative to BitLocker.
 
 > New vulnerabilities are being discovered and patched all the time - use a browser that is being actively maintained, in order to receive these security-critical updates.<br> Even privacy-respecting browsers, often do not have the best privacy options enabled by default. After installing, check the privacy & security settings, and update the configuration to something that you are comfortable with. 12Bytes maintains a comprehensive guide on [Firefox Configuration for Privacy and Performance](https://codeberg.org/12bytes/firefox-config-guide)
 
-
 </details>
 
 <details>
@@ -233,7 +244,7 @@ that makes a good alternative to BitLocker.
 
 ### Search Engines
 
-- **[<img src='https://duckduckgo.com/favicon.png' width='14' alt='' /> DuckDuckGo](https://duckduckgo.com)** - DuckDuckGo is a very user-friendly, fast and secure search engine. It's totally private, with no trackers, cookies or ads. It's also highly customisable, with dark-mode, many languages and features. T[…](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo "View full DuckDuckGo report") 
+- **[<img src='https://duckduckgo.com/favicon.png' width='14' alt='' /> DuckDuckGo](https://duckduckgo.com)** - DuckDuckGo is a user-friendly and fast secure search engine. While it doesn't use trackers or cookies, there are search-related ads. It's also highly customisable, with theming, languages, bangs and p[…](https://awesome-privacy.xyz/essentials/search-engines/duckduckgo "View full DuckDuckGo report") 
 - **[<img src='https://avatars.githubusercontent.com/u/1692504' width='14' alt='' /> Qwant](https://www.qwant.com)** - French service that aggregates Bings results, with its own results. Qwant doesn't plant any cookies, nor have any trackers or third-party advertising. It returns non-biased search results, with no pro[…](https://awesome-privacy.xyz/essentials/search-engines/qwant "View full Qwant report") 
 - **[<img src='https://www.startpage.com/favicon.ico' width='14' alt='' /> Startpage](https://www.startpage.com)** - Dutch search engine that searches on Google and shows the results (slightly rearranged). It has several configurations that improve privacy during use (it is not open source) 
 - **[<img src='https://i.ibb.co/GH1n4wf/Brave-Search-Icon.png' width='14' alt='' /> Brave Search](https://search.brave.com/)** - Brave Search is a privacy-focused search engine that does not track users or their searches, does not use secret algorithms or user profiling, and is based on its own search index. 
@@ -259,13 +270,12 @@ that makes a good alternative to BitLocker.
 - **[<img src='https://signal.org/assets/images/favicon/android-chrome-192x192.png' width='14' alt='' /> Signal](https://signal.org)** - Probably one of the most popular, secure private messaging apps that combines strong encryption (see [Signal Protocol](https://en.wikipedia.org/wiki/Signal_Protocol)) with a simple UI and plenty of features. It's widely used across the world, and ea[…](https://awesome-privacy.xyz/communication/encrypted-messaging/signal "View full Signal report") 
 - **[<img src='https://simplex.chat/img/new/logo-symbol-light.svg' width='14' alt='' /> SimpleX](https://simplex.chat/)** - Simplex is gaining popularity as a secure and private messaging app renowned for its robust encryption protocol without user IDs or phone numbers and this improves your privacy. Simplex offers instant[…](https://awesome-privacy.xyz/communication/encrypted-messaging/simplex "View full SimpleX report") 
 - **[<img src='https://xmpp.org/apple-touch-icon.png' width='14' alt='' /> XMPP](https://xmpp.org)** - XMPP, also known as Jabber, is an open standard for decentralized messaging that has been widely used for decades. It has actually been the basis upon which WhatsApp, Facebook's Chat and Google's Talk[…](https://awesome-privacy.xyz/communication/encrypted-messaging/xmpp "View full XMPP report") 
-- **[<img src='https://matrix.org/assets/favicon.ico' width='14' alt='' /> Matrix](https://matrix.org)** - Matrix is a decentralized open network for secure communications, with E2E encryption with Olm and Megolm. Along with the [Element](https://element.io/) client, it supports VOIP + video calling and IM + group chats. Since M[…](https://awesome-privacy.xyz/communication/encrypted-messaging/matrix "View full Matrix report") 
+- **[<img src='https://matrix.org/assets/favicon.ico' width='14' alt='' /> Matrix](https://matrix.org)** - Matrix is a decentralized open network for secure communications, with E2E encryption with Olm and Megolm. Along with the [Element](https://element.io/) client, it supports VOIP + video calling and IM + group chats. Note th[…](https://awesome-privacy.xyz/communication/encrypted-messaging/matrix "View full Matrix report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Many messaging apps claim to be secure, but if they are not open source, then this cannot be verified - and they **should not be trusted**. This applies to [Telegram](https://telegram.org), [Threema](https://threema.ch), [Cypher](https://www.goldenfrog.com/cyphr), [Wickr](https://wickr.com/), [Silent Phone](https://www.silentcircle.com/products-and-solutions/silent-phone/) and [Viber](https://www.viber.com/), to name a few - these apps should not be used to communicate any sensitive data. [Wire](https://wire.com/) has also been removed, due to a [recent acquisition](https://blog.privacytools.io/delisting-wire/)
-
 
 </details>
 
@@ -306,7 +316,6 @@ With [Peer-to-Peer](https://en.wikipedia.org/wiki/Peer-to-peer) networks, there 
 
 Email is not secure - your messages can be easily intercepted and read. Corporations scan the content of your mail, to build up a profile of you, either to show you targeted ads or to sell onto third-parties. Through the [Prism Program](https://en.wikipedia.org/wiki/PRISM_(surveillance_program)), the government also has full access to your emails (if not end-to-end encrypted) - this applies to Gmail, Outlook Mail, Yahoo Mail, GMX, ZoHo, iCloud, AOL and more.<br><br> For a more details comparison of email providers, see [email-comparison.as93.net](https://email-comparison.as93.net/)
 
-- **[<img src='https://forwardemail.net/img/android-chrome-192x192.png' width='14' alt='' /> Forward Email](https://forwardemail.net)** - A 100% open-source, privacy-focused email service with quantum-safe encrypted SQLite mailboxes (sandboxed and portable). Supports IMAP, POP3, SMTP, CalDAV (calendars), and CardDAV (contacts). Features[…](https://awesome-privacy.xyz/communication/encrypted-email/forward-email "View full Forward Email report") 
 - **[<img src='https://proton.me/favicons/android-chrome-192x192.png' width='14' alt='' /> ProtonMail](https://protonmail.com)** - An end-to-end encrypted anonymous email service. ProtonMail has a modern easy-to-use and customizable UI, as well as fast, secure native mobile apps. ProtonMail has all the features that you'd expect[…](https://awesome-privacy.xyz/communication/encrypted-email/protonmail "View full ProtonMail report") 
 - **[<img src='https://tuta.com/resources/favicon/logo-favicon.svg' width='14' alt='' /> Tuta](https://tuta.com)** - Free and open source email service based in Germany. It has a basic intuitive UI, secure native mobile apps and desktop email clients, anonymous signup, and an encrypted calendar. Tuta has a full-feat[…](https://awesome-privacy.xyz/communication/encrypted-email/tuta "View full Tuta report") 
 - **[<img src='https://mailfence.com/c/mailfence/images/favicon/android-chrome-192x192.png' width='14' alt='' /> Mailfence](https://mailfence.com?src=digitald)** - Mailfence supports OpenPGP so that you can manually exchange encryption keys independently from the Mailfence servers, putting you in full control. Mailfence has a simple UI, similar to that of Outloo[…](https://awesome-privacy.xyz/communication/encrypted-email/mailfence "View full Mailfence report") 
@@ -316,12 +325,11 @@ Email is not secure - your messages can be easily intercepted and read. Corporat
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > - When using an end-to-end encryption technology like OpenPGP, some metadata
-in the email header will not be encrypted.
-- OpenPGP also does not support Forward secrecy, which means if either
-your or the recipient's private key is ever stolen, all previous messages
-encrypted with it will be exposed. You should take great care to keep your
-private keys safe.
-
+> in the email header will not be encrypted.
+> - OpenPGP also does not support Forward secrecy, which means if either
+> your or the recipient's private key is ever stolen, all previous messages
+> encrypted with it will be exposed. You should take great care to keep your
+> private keys safe.
 
 </details>
 
@@ -355,7 +363,6 @@ Email clients are the programs used to interact with the mail server. For hosted
 
 > One disadvantage of mail clients, is that many of them do not support 2FA, so it is important to keep your device secured and encrypted
 
-
 </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -367,11 +374,15 @@ Email clients are the programs used to interact with the mail server. For hosted
 Revealing your real email address online can put you at risk. Email aliasing allows messages to be sent to [anything]@my-domain.com and still land in your primary inbox. This protects your real email address from being revealed. Aliases are generated automatically, the first time they are used. This approach lets you identify which provider leaked your email address, and block an alias with 1-click.
 
 - **[<img src='https://addy.io/apple-touch-icon.png' width='14' alt='' /> Addy](https://addy.io)** - An open source anonymous email forwarding service, allowing you to create unlimited email aliases. Has a free plan. 
-- **[<img src='https://33mail.com/favicon.ico' width='14' alt='' /> 33Mail](http://33mail.com)** - A long-standing aliasing service. As well as receiving, 33Mail also lets you reply to forwarded addresses anonymously. Free plan, as well as Premium plan ($1/ month) if you'd like to use a custom doma[…](https://awesome-privacy.xyz/communication/mail-forwarding/33mail "View full 33Mail report") 
 - **[<img src='https://simplelogin.io/favicon.ico' width='14' alt='' /> SimpleLogin](https://simplelogin.io)** - Fully open source (view on [GitHub](https://github.com/simple-login)) alias service with many additional features. Can be self-hosted, or the managed version has a free plan, as well as hosted premium option ($2.99/ month) for using cu[…](https://awesome-privacy.xyz/communication/mail-forwarding/simplelogin "View full SimpleLogin report") 
 - **[<img src='https://relay.firefox.com/favicon.svg' width='14' alt='' /> Firefox Private Relay](https://relay.firefox.com)** - Developed and managed by Mozilla, Relay is a Firefox addon, that lets you make an email alias with 1 click, and have all messages forwarded onto your personal email. Relay is totally free to use, and[…](https://awesome-privacy.xyz/communication/mail-forwarding/firefox-private-relay "View full Firefox Private Relay report") 
-- **[<img src='https://forwardemail.net/img/android-chrome-192x192.png' width='14' alt='' /> ForwardEmail](https://forwardemail.net)** - Simple open source catch-all email forwarding service. Easy to self-host (see on [GitHub](https://github.com/forwardemail/free-email-forwarding)), or the hosted version has a free plan as well as a ($3/month) premium plan.[…](https://awesome-privacy.xyz/communication/mail-forwarding/forwardemail "View full ForwardEmail report") 
-- **[<img src='https://proton.me/favicons/android-chrome-192x192.png' width='14' alt='' /> ProtonMail](https://protonmail.com/pricing)** - If you already have ProtonMail's Professional (€8/month) or Visionary (€30/month) package, then an implementation of this feature is available via the Catch-All Email feature. 
+- **[<img src='https://forwardemail.net/img/android-chrome-192x192.png' width='14' alt='' /> Forward Email](https://forwardemail.net)** - Catch-all email forwarding service with unlimited aliases and custom domains, configured via DNS records. Self-hostable; the hosted version has a limited free plan, with paid plans (from $3/month) add[…](https://awesome-privacy.xyz/communication/mail-forwarding/forward-email "View full Forward Email report") 
+
+<details>
+<summary>✳️ <b>Notable Mentions</b></summary>
+
+> Some full email providers include aliasing or catch-all addresses as a built-in (usually premium) feature. For example, [Proton](https://proton.me) (catch-all, plus hide-my-email aliases via Proton Pass), [StartMail](https://www.startmail.com), [mailbox.org](https://mailbox.org) and [Posteo](https://posteo.de) all offer this.
+> </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -379,8 +390,9 @@ Revealing your real email address online can put you at risk. Email aliasing all
 
 ### Email Security Tools
 
-- **[<img src='https://icon.horse/icon/www.emailprivacytester.com' width='14' alt='' /> Email Privacy Tester](https://www.emailprivacytester.com/)** - Quick tool, that enables you to test whether your mail client "reads" your emails before you've opened them, and also checks what analytics, read-receipts or other tracking data your mail client allow[…](https://awesome-privacy.xyz/communication/email-security-tools/email-privacy-tester "View full Email Privacy Tester report") 
+- **[<img src='https://icon.horse/icon/www.emailprivacytester.com' width='14' alt='' /> Email Privacy Tester](https://www.emailprivacytester.com/)** - Tests whether your mail client "reads" emails before you open them, and what analytics, read-receipts or other tracking data it leaks back to the sender. Developed by [Mike Cardwell](https://www.grepular.com/); use a spare addres[…](https://awesome-privacy.xyz/communication/email-security-tools/email-privacy-tester "View full Email Privacy Tester report") 
 - **[<img src='https://addons.thunderbird.net/user-media/addon_icons/438/438634-64.png' width='14' alt='' /> DKIM Verifier](https://addons.thunderbird.net/en-US/thunderbird/addon/dkim-verifier/?collection_id=a5557f08-eafd-7a39-81c6-09127da790f7)** - Verifies DKIM signatures and shows the result in the e-mail header, in order to help spot spoofed emails (which do not come from the domain that they claim to). 
+- **[<img src='https://www.paperweight.email/icon.png' width='14' alt='' /> Paperweight](https://www.paperweight.email/)** - Paperweight scans your inbox to map your digital footprint, then helps you take back control and delete your data. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -431,6 +443,7 @@ Now more than ever we are relying on software to help with team collaboration. U
 - **[<img src='https://element.io/images/favicon.png' width='14' alt='' /> Element](https://element.io/)** - Privacy-focused messenger using the Matrix protocol. The Element client allows for group chat rooms, media sharing voice and video group calls. 
 - **[<img src='https://www.dlf.pt/dfpng/middlepng/60-606143_internet-relay-chat-irc-logo-hd-png-download.png' width='14' alt='' /> Internet Relay Chat](https://en.wikipedia.org/wiki/IRC)** - An IRC-based solution is another option, being decentralized there is no point of failure, and it's easy to self-host. However it's important to keep security in mind while configuring your IRC instan[…](https://awesome-privacy.xyz/communication/team-collaboration/internet-relay-chat "View full Internet Relay Chat report") 
 - **[<img src='https://avatars.githubusercontent.com/u/9828093' width='14' alt='' /> Mattermost](https://mattermost.org/)** - Mattermost has an open source edition, which can be self-hosted. It makes a good Slack alternative, with native desktop, mobile and web apps and a wide variety of integrations. 
+- **[<img src='https://avatars.githubusercontent.com/u/4921959?s=256&v=4' width='14' alt='' /> Zulip](https://zulip.com)** - Open source team chat organized around topic-based threading, which keeps busy conversations easier to follow than channel-only tools. Can be self-hosted, or used as a paid cloud service. The threadin[…](https://awesome-privacy.xyz/communication/team-collaboration/zulip "View full Zulip report") 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -448,7 +461,7 @@ Now more than ever we are relying on software to help with team collaboration. U
 
 The following browser add-ons give you better control over what content is able to be loaded and executed while your browsing.<br> Before installing anything, you should read the Word of Warning section below.
 
-- **[<img src='https://i.ibb.co/8Y1ds5X/privacy-badger.png' width='14' alt='' /> Privacy Badger](https://privacybadger.org/)** - Blocks invisible trackers, in order to stop advertisers and other third-parties from secretly tracking where you go and what pages you look at. **Download**: [Chrome](https://chrome.google.com/webstore/detail/privacy-badger/pkehgijcmpdhfbdbbnkijodmdjhbjlgp) - [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/privacy-badger17/)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger "View full Privacy Badger report") 
+- **[<img src='https://i.ibb.co/8Y1ds5X/privacy-badger.png' width='14' alt='' /> Privacy Badger](https://privacybadger.org/)** - Blocks invisible trackers, in order to stop advertisers and other third-parties from secretly tracking where you go and what pages you look at. Less configurable but simpler than uBlock, and focuses o[…](https://awesome-privacy.xyz/security-tools/browser-extensions/privacy-badger "View full Privacy Badger report") 
 - **[<img src='https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/ublock.svg' width='14' alt='' /> uBlock Origin](https://ublockorigin.com)** - Block ads, trackers and malware sites. **Download**: [Chrome](https://chrome.google.com/webstore/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en-GB) - [Firefox](https://addons.mozilla.org/en-GB/firefox/addon/ublock-origin/)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/ublock-origin "View full uBlock Origin report") 
 - **[<img src='https://addons.mozilla.org/user-media/addon_icons/782/782160-64.png' width='14' alt='' /> Firefox Multi-Account Containers](https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/)** - Firefox Multi-Account Containers lets you keep parts of your online life separated into color-coded tabs that preserve your privacy. Cookies are separated by container, allowing you to use the web wit[…](https://awesome-privacy.xyz/security-tools/browser-extensions/firefox-multi-account-containers "View full Firefox Multi-Account Containers report") 
 - **[<img src='https://lh3.googleusercontent.com/n4XZC3SfmhMnrIwR1256Cmx5d51OaJImxBtJqaTQnNuWD7xqAgGI2LmAXQk6O1CffLzFNSiTqIO-ZxMCJIGTuKcG=s60' width='14' alt='' /> WebRTC-Leak-Prevent](https://diafygi.github.io/webrtc-ips)** - Provides user control over WebRTC privacy settings in Chromium, in order to prevent WebRTC leaks. **Download**: [Chrome](https://chrome.google.com/webstore/detail/webrtc-leak-prevent/eiadekoaikejlgdbkbdfeijglgfdalml?hl=en-GB). For Firefox users, you can do this through [browser settings](https://www.privacytools.io/browsers/#webrtc). Test for WebRTC leaks,[…](https://awesome-privacy.xyz/security-tools/browser-extensions/webrtc-leak-prevent "View full WebRTC-Leak-Prevent report") 
@@ -466,17 +479,16 @@ The following browser add-ons give you better control over what content is able 
 - **[<img src='https://amiunique.org/favicon.ico' width='14' alt='' /> AmIUnique Timeline](https://amiunique.org/timeline)** - Enables you to better understand the evolution of browser fingerprints (which is what websites use to uniquely identify and track you). **Download**: [Chrome](https://chrome.google.com/webstore/detail/amiunique/pigjfndpomdldkmoaiiigpbncemhjeca) - [Firefox](https://addons.mozilla.org/en-US/firefox/addon/amiunique)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/amiunique-timeline "View full AmIUnique Timeline report") 
 - **[<img src='https://lh3.googleusercontent.com/c78SvSl7OD2thLmgX5irlo1tvxGVtkziKTKmp7VByjvvrw2czkP2cFbbRASmopQBV9-PpNBD_NOqt8WIC4JVc0WB3A=s60' width='14' alt='' /> Netcraft Extension](https://www.netcraft.com/apps/browser)** - Notifies you when visiting a known or potential phishing site, and detects suspicious JavaScript (including skimmers and miners). Also provides a simple rating for a given site's legitimacy and securi[…](https://awesome-privacy.xyz/security-tools/browser-extensions/netcraft-extension "View full Netcraft Extension report") 
 - **[<img src='https://icon.horse/icon/linguister.io' width='14' alt='' /> Linguist](https://linguister.io)** - Linguist is a privacy‑focused translation solution in-browser that has an embedded offline translator and lets users create [custom translators](https://linguister.io/docs/CustomTranslator) to use any translation API, even if it's locally deployed[…](https://awesome-privacy.xyz/security-tools/browser-extensions/linguist "View full Linguist report") 
-- **[<img src='https://raw.githubusercontent.com/libredirect/browser_extension/refs/heads/master/src/assets/images/libredirect.svg' width='14' alt='' /> LibRedirect](https://libredirect.github.io)** - A browser extension that redirects popular sites to alternative privacy friendly frontends **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/libredirect/) - [Chrome](https://libredirect.github.io/download_chromium.html)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/libredirect "View full LibRedirect report") 
+- **[<img src='https://raw.githubusercontent.com/libredirect/browser_extension/refs/heads/master/src/assets/images/libredirect.svg' width='14' alt='' /> LibRedirect](https://libredirect.manerakai.com)** - A browser extension that redirects popular sites to alternative privacy friendly frontends **Download**: [Firefox](https://addons.mozilla.org/firefox/addon/libredirect/) - [Chrome](https://libredirect.github.io/download_chromium.html)[…](https://awesome-privacy.xyz/security-tools/browser-extensions/libredirect "View full LibRedirect report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > - Having many extensions installed raises entropy, causing your fingerprint to be more unique, hence making tracking easier.
-- Much of the functionality of the above addons can be applied without installing anything, by configuring browser settings yourself. For Firefox this is done in the user.js
-- Be careful when installing unfamiliar browser add-ons, since some can compromise your security and privacy. At the time of writing, the above list were all open source, verified and 'safe' extensions.
-- In most situations, only a few of the above extensions will be needed in combination.
-- See the [arkenfox wiki](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) for more information on the obsolescence and purposelessness of many popular extensions, and why you may only need a very limited set.
-
+> - Much of the functionality of the above addons can be applied without installing anything, by configuring browser settings yourself. For Firefox this is done in the user.js
+> - Be careful when installing unfamiliar browser add-ons, since some can compromise your security and privacy. At the time of writing, the above list were all open source, verified and 'safe' extensions.
+> - In most situations, only a few of the above extensions will be needed in combination.
+> - See the [arkenfox wiki](https://github.com/arkenfox/user.js/wiki/4.1-Extensions) for more information on the obsolescence and purposelessness of many popular extensions, and why you may only need a very limited set.
 
 </details>
 
@@ -492,8 +504,8 @@ The following browser add-ons give you better control over what content is able 
 
 ### Mobile Apps
 
-- **[<img src='https://play-lh.googleusercontent.com/dIIbpr1fh-w7ykJJmfLyu6UH1HJ8bpFKEmyUlKqYHSEinG8v_B7mlqgeTzlFRhs0Uw=s48' width='14' alt='' /> Orbot](https://support.torproject.org/glossary/orbot/)** - System-wide Tor proxy, which encrypts your connection through multiple nodes. You can also use it alongside Tor Browser to access .onion sites. 
-- **[<img src='https://play-lh.googleusercontent.com/XEd1PsXgOSNNpD2hlZMvigIOJ9e5JCL2KhCJ4X984Az5EFw6YiecDebqdsZ12VNU2kPu=w240-h480' width='14' alt='' /> NetGuard](https://netguard.me/)** - A firewall app for Android, which does not require root. NetGuard provides simple and advanced ways to block access to the internet, where applications and addresses can individually be allowed or den[…](https://awesome-privacy.xyz/security-tools/mobile-apps/netguard "View full NetGuard report") 
+- **[<img src='https://raw.githubusercontent.com/guardianproject/orbot-android/master/fastlane/metadata/android/en-US/images/icon.png' width='14' alt='' /> Orbot](https://orbot.app/)** - System-wide Tor proxy, which encrypts your connection through multiple nodes. You can also use it alongside Tor Browser to access .onion sites. 
+- **[<img src='https://raw.githubusercontent.com/M66B/NetGuard/master/app/src/main/ic_launcher-web.png' width='14' alt='' /> NetGuard](https://netguard.me/)** - A firewall app for Android, which does not require root. NetGuard provides simple and advanced ways to block access to the internet, where applications and addresses can individually be allowed or den[…](https://awesome-privacy.xyz/security-tools/mobile-apps/netguard "View full NetGuard report") 
 - **[<img src='https://play-lh.googleusercontent.com/ywvaxXcH90yttClJvgHR5UsfDnGS_YNtFiW6fQJm1p7_6HX9Dbn0v2J9gIzOOKFYQOnA=w240-h480' width='14' alt='' /> Island](https://island.oasisfeng.com/)** - A sandbox environment, allowing you to clone selected apps and run them in an isolated box, preventing it from accessing your personal data, or device information. 
 - **[<img src='https://gitlab.com/uploads/-/system/project/avatar/18237274/ic_launcher-playstore.png?width=48' width='14' alt='' /> Insular](https://gitlab.com/secure-system/Insular)** - An actively-maintained fork of the Island project with additional enhancements 
 - **[<img src='https://exodus-privacy.eu.org/img/favicons/apple-touch-icon.png' width='14' alt='' /> Exodus](https://exodus-privacy.eu.org/en/page/what/#android-app)** - Shows which trackers, each of your installed apps is using, so that you can better understand how your data is being collected. Uses data from the Exodus database of scanned APKs. 
@@ -505,7 +517,6 @@ The following browser add-ons give you better control over what content is able 
 - **[<img src='https://1.1.1.1/favicon.ico' width='14' alt='' /> 1.1.1.1](https://1.1.1.1/)** - Lets you use CloudFlares fast and secure 1.1.1.1 DNS, with DNS over HTTPS, and also has the option to enable CloudFlares WARP+ VPN. 
 - **[<img src='https://avatars.githubusercontent.com/u/62335928?s=200&v=4' width='14' alt='' /> Fing App](https://www.fing.com/products/fing-app)** - A network scanner to help you monitor and secure your WiFi network. The app is totally free, but to use the advanced controls, you will need a Fing Box. 
 - **[<img src='https://blokada.org/favicon.png' width='14' alt='' /> Blokada](https://blokada.org/)** - This application blocks ads and trackers, doesn't require root and works for all the apps on your Android phone. Check out how it works here. 
-- **[<img src='https://f-droid.org/repo/icons-640/de.srlabs.snoopsnitch.50.png' width='14' alt='' /> SnoopSnitch](https://opensource.srlabs.de/projects/snoopsnitch)** - Collects and analyzes mobile radio data to make you aware of your mobile network security and to warn you about threats like fake base stations (IMSI catchers), user tracking and over-the-air updates.[…](https://awesome-privacy.xyz/security-tools/mobile-apps/snoopsnitch "View full SnoopSnitch report") 
 - **[<img src='https://trackercontrol.org/images/logo.png' width='14' alt='' /> TrackerControl](https://trackercontrol.org/)** - Monitor and control hidden data collection in mobile apps about user behavior/ tracking. Get from [F-Droid](https://f-droid.org/en/packages/net.kollnig.missioncontrol.fdroid/) 
 - **[<img src='https://f-droid.org/repo/com.smilla.greentooth/en-US/icon_8WaREJ2f7uFLdL9QGDL4xSqsIRB7wgdwv9BY_ET0WEg=.png' width='14' alt='' /> Greentooth](https://gitlab.com/nbergman/greentooth)** - Auto-disable Bluetooth, then it is not being used. Saves battery, and prevent some security risks. Get from [F-Droid](https://f-droid.org/en/packages/com.smilla.greentooth/) 
 - **[<img src='https://f-droid.org/repo/com.wesaphzt.privatelock/en-US/icon_c5gFGZ7VhAR-kLihEfLVrStxIushKtWADc7pR1hQ6b4=.png' width='14' alt='' /> PrivateLock](https://github.com/wesaphzt/privatelock)** - Auto lock your phone based on movement force/ acceleration. Get from [F-Droid](https://f-droid.org/en/packages/com.wesaphzt.privatelock/) See also [PluckLock](https://github.com/SyntaxBlitz/PluckLock) 
@@ -515,14 +526,14 @@ The following browser add-ons give you better control over what content is able 
 - **[<img src='https://play-lh.googleusercontent.com/hMhLdDNBR_rBIDctJ5yCPbyPy0fi_6FHp9MdgaOIPPedyqgwr6tsZq_AO3W1z4Zb8HJ_=w240-h480' width='14' alt='' /> Catch the Man-in-the-Middle](https://play.google.com/store/apps/details?id=me.brax.certchecker)** - Simple tool, that compares SHA-1 fingerprints of the the SSL certificates seen from your device, and the certificate seen from an external network. If they do not match, this may indicate a man-in-the[…](https://awesome-privacy.xyz/security-tools/mobile-apps/catch-the-man-in-the-middle "View full Catch the Man-in-the-Middle report") 
 - **[<img src='https://f-droid.org/repo/com.celzero.bravedns/en-US/icon_AwgyVcHjczoaNxANCvUeSJrEfOWsIIeIpCgBaUKoXuY=.png' width='14' alt='' /> RethinkDNS & Firewall](https://rethinkdns.com)** - An open-source ad-blocker and firewall app for Android 6+ (does not require root). 
 - **[<img src='https://f-droid.org/assets/apple-touch-icon_ypJwtCrcixeH_qV6LdcMYk1anFIR9o-_ufR__1wNdJY=.png' width='14' alt='' /> F-Droid](https://f-droid.org/)** - F-Droid is an installable catalogue of FOSS applications for Android. The client enables you to browse, install, and keep track of updates on your device. 
+- **[<img src='https://raw.githubusercontent.com/thomasbuilds/Spectre/refs/heads/main/metadata/en-US/images/icon.png' width='14' alt='' /> Spectre](https://github.com/thomasbuilds/Spectre)** - A radio frequency scanner app for Android with recon and offensive capabilities. 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Too many installed apps will increase your attack surface - only install applications that you need.
-Be sure to check the permissions, and what data an app has access to prior to installation.
-Only install from official sources.
-
+> Be sure to check the permissions, and what data an app has access to prior to installation.
+> Only install from official sources.
 
 </details>
 
@@ -579,7 +590,6 @@ A selection of free online tools and utilities, to check, test and protect your 
 
 > Browsers are inherently insecure, be careful when uploading, or entering personal details.
 
-
 </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -602,12 +612,11 @@ A selection of free online tools and utilities, to check, test and protect your 
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > - *A VPN does not make you anonymous - it merely changes your public IP address to that of your VPN provider, instead of your ISP. Your browsing session can still be linked back to your real identity either through your system details (such as user agent, screen resolution even typing patterns), cookies / session storage, or by the identifiable data that you enter. [Read more about fingerprinting](https://pixelprivacy.com/resources/browser-fingerprinting/)*
-- *Logging - If you choose to use a VPN because you do not agree with your ISP logging your full browsing history, then it is important to keep in mind that your VPN provider can see (and mess with) all your traffic. Many VPNs claim not to keep logs, but you cannot be certain of this ([VPN leaks](https://vpnleaks.com/)). See [this article](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) for more*
-- *IP Leaks - If configured incorrectly, your IP may be exposed through a DNS leak. This usually happens when your system is unknowingly accessing default DNS servers rather than the anonymous DNS servers assigned by an anonymity network or VPN. Read more: [What is a DNS leak](https://www.dnsleaktest.com/what-is-a-dns-leak.html), [DNS Leak Test](https://www.dnsleaktest.com), [How to Fix a DNS Leak](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html)*
-- *Stealth - It will be visible to your adversary that you are using a VPN (usually from the IP address), but other system and browser data, can still reveal information about you and your device (such as your local time-zone, indicating which region you are operating from)*
-- *Many reviews are sponsored, and hence biased. Do your own research, or go with one of the above options*
-- *Using [Tor](https://www.torproject.org) (or another [Mix Network](/5_Privacy_Respecting_Software.md#mix-networks)) may be a better option for anonimity*
-
+> - *Logging - If you choose to use a VPN because you do not agree with your ISP logging your full browsing history, then it is important to keep in mind that your VPN provider can see (and mess with) all your traffic. Many VPNs claim not to keep logs, but you cannot be certain of this ([VPN leaks](https://vpnleaks.com/)). See [this article](https://gist.github.com/joepie91/5a9909939e6ce7d09e29) for more*
+> - *IP Leaks - If configured incorrectly, your IP may be exposed through a DNS leak. This usually happens when your system is unknowingly accessing default DNS servers rather than the anonymous DNS servers assigned by an anonymity network or VPN. Read more: [What is a DNS leak](https://www.dnsleaktest.com/what-is-a-dns-leak.html), [DNS Leak Test](https://www.dnsleaktest.com), [How to Fix a DNS Leak](https://www.dnsleaktest.com/how-to-fix-a-dns-leak.html)*
+> - *Stealth - It will be visible to your adversary that you are using a VPN (usually from the IP address), but other system and browser data, can still reveal information about you and your device (such as your local time-zone, indicating which region you are operating from)*
+> - *Many reviews are sponsored, and hence biased. Do your own research, or go with one of the above options*
+> - *Using [Tor](https://www.torproject.org) (or another [Mix Network](/5_Privacy_Respecting_Software.md#mix-networks)) may be a better option for anonimity*
 
 </details>
 
@@ -659,21 +668,20 @@ Fun little projects that you can run on a Raspberry Pi, or other low-powered com
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > To provide low-latency browsing, Tor does not mix packets or generate cover traffic.
-If an adversary is powerful enough, theoretically they could either observe the entire network,
-or just the victims entry and exit nodes. It's worth mentioning, that even though your ISP
-can not see what you are doing, they will be able determine that you are using a mix net,
-to hide this - a VPN could be used as well.
-If you are doing anything which could put you at risk, then good OpSec is essential,
-as the authorities have traced criminals through the Tor network before,
-and [made arrests](https://techcrunch.com/2019/05/03/how-german-and-us-authorities-took-down-the-owners-of-darknet-drug-emporium-wall-street-market).
-Don't let Tor provide you a false sense of security - be aware of information leaks through DNS, other programs or human error.
-Tor-supported browsers may might lag behind their upstream forks, and include exploitable unpatched issues.
-See [#19](https://github.com/Lissy93/personal-security-checklist/issues/19)
-
-Note: The Tor network is run by the community.
-If you benefit from using it and would like to help sustain uncensored internet access for all,
-consider [running a Tor relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)
-
+> If an adversary is powerful enough, theoretically they could either observe the entire network,
+> or just the victims entry and exit nodes. It's worth mentioning, that even though your ISP
+> can not see what you are doing, they will be able determine that you are using a mix net,
+> to hide this - a VPN could be used as well.
+> If you are doing anything which could put you at risk, then good OpSec is essential,
+> as the authorities have traced criminals through the Tor network before,
+> and [made arrests](https://techcrunch.com/2019/05/03/how-german-and-us-authorities-took-down-the-owners-of-darknet-drug-emporium-wall-street-market).
+> Don't let Tor provide you a false sense of security - be aware of information leaks through DNS, other programs or human error.
+> Tor-supported browsers may might lag behind their upstream forks, and include exploitable unpatched issues.
+> See [#19](https://github.com/Lissy93/personal-security-checklist/issues/19)
+>
+> Note: The Tor network is run by the community.
+> If you benefit from using it and would like to help sustain uncensored internet access for all,
+> consider [running a Tor relay](https://trac.torproject.org/projects/tor/wiki/TorRelayGuide)
 
 </details>
 
@@ -713,10 +721,9 @@ provide shared network connections and cache data to speed up common requests.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > [Malicious Proxies](https://www.defcon.org/images/defcon-17/dc-17-presentations/defcon-17-edward_zaborowski-doppelganger.pdf) are all too common.
-Always use open source software, host it yourself or pay for a reputable cloud service.
-Never use a free proxy; it can monitor your connection, steal cookies and contain malware.
-VPNs are a better option, better still - use the Tor network.
-
+> Always use open source software, host it yourself or pay for a reputable cloud service.
+> Never use a free proxy; it can monitor your connection, steal cookies and contain malware.
+> VPNs are a better option, better still - use the Tor network.
 
 </details>
 
@@ -726,6 +733,8 @@ VPNs are a better option, better still - use the Tor network.
 > [V2ray-core](https://github.com/v2ray/v2ray-core) is a platform for building
 > proxies to bypass network restrictions and protect your privacy.
 > See [more](https://github.com/hugetiny/awesome-vpn)
+> [TransparentTorProxy](https://github.com/onyks-os/TransparentTorProxy) is a Linux CLI
+> utility that transparently routes all system traffic through the Tor network.
 > </details>
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -746,10 +755,9 @@ a service that respects privacy and supports DNS-over-TLS, DNS-over-HTTPS or DNS
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Using an encrypted DNS resolver will not make you anonymous, it just makes
-it harder for third-partied to discover your domain history.
-If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/),
-to ensure that some requests are not being exposed.
-
+> it harder for third-partied to discover your domain history.
+> If you are using a VPN, take a [DNS leak test](https://www.dnsleaktest.com/),
+> to ensure that some requests are not being exposed.
 
 </details>
 
@@ -788,7 +796,6 @@ battle-tested protocol, that has been in use since 2013, and is still widely use
 - **[<img src='https://nlnetlabs.nl/extra/favicons/favicon-196x196.png' width='14' alt='' /> Unbound](https://nlnetlabs.nl/projects/unbound)** - Validating, recursive, caching DNS resolve with support for DNS-over-TLS. Designed to be fast, lean, and secure Unbound incorporates modern features based on open standards. It's fully open source, an[…](https://awesome-privacy.xyz/networking/dns-clients/unbound "View full Unbound report") 
 - **[<img src='https://raw.githubusercontent.com/Ch4t4r/Nebulo/master/app/src/main/res/mipmap-xxhdpi/ic_launcher.png' width='14' alt='' /> Nebulo](https://nebulo.app)** - Non-root, small-sized DNS changer utilizing DNS-over-HTTPS and DNS-over-TLS. (Note, since this uses Android's VPN API, it is not possible to run a VPN while using Nebulo.) 
 - **[<img src='https://rethinkdns.com/ico/app_icon.svg' width='14' alt='' /> RethinkDNS & Firewall](https://rethinkdns.com/app)** - Free and open source DNS changer with support for DNS-over-HTTPS, DNS-over-Tor, and DNSCrypt v3 with Anonymized Relays. (Note, since this uses Android's VPN API, it is not possible to run a VPN while[…](https://awesome-privacy.xyz/networking/dns-clients/rethinkdns-and-firewall "View full RethinkDNS & Firewall report") 
-- **[<img src='https://github.com/s-s/dnscloak/blob/master/src/images/logo.png?raw=true' width='14' alt='' /> DNS Cloak](https://apps.apple.com/us/app/dnscloak-secure-dns-client/id1452162351)** - Simple all that allows for the use for dnscrypt-proxy 2 on an iPhone. 
 - **[<img src='https://dnsprivacy.org/images/favicon.png' width='14' alt='' /> Stubby](https://dnsprivacy.org/wiki/display/DP/DNS+Privacy+Daemon+-+Stubby)** - Acts as a local DNS Privacy stub resolver (using DNS-over-TLS). Stubby encrypts DNS queries sent from a client machine (desktop or laptop) to a DNS Privacy resolver increasing end user privacy. Stubby[…](https://awesome-privacy.xyz/networking/dns-clients/stubby "View full Stubby report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
@@ -815,23 +822,23 @@ can access which IPs.
 - **[<img src='https://icon.horse/icon/wiki.ubuntu.com' width='14' alt='' /> Uncomplicated Firewall](https://wiki.ubuntu.com/UncomplicatedFirewall)** - The ufw (Uncomplicated Firewall) is a GUI application and CLI, that allows you to configure a firewall using `iptables` much more easily. 
 - **[<img src='https://www.ipfire.org/static/img/apple-touch-icon-192x192-precomposed.png' width='14' alt='' /> IPFire](https://www.ipfire.org)** - IPFire is a hardened, versatile, state-of-the-art Open Source firewall based on Linux. Easy to install on a raspberry Pi, since it is lightweight and heavily customizable. 
 - **[<img src='https://shorewall.org/favicon.ico' width='14' alt='' /> Shorewall](https://shorewall.org)** - An open source firewall tool for Linux that builds upon the Netfilter system built into the Linux kernel, making it easier to manage more complex configuration schemes with iptables. 
+- **[<img src='https://docs.bunkerweb.io/latest/assets/favicon.png' width='14' alt='' /> BunkerWeb](https://www.bunkerweb.io)** - BunkerWeb is an open-source Next-Generation Web Application Firewall (WAF). It provides easy protection for your web services and is designed to remain secure by default. It integrates seamlessly with[…](https://awesome-privacy.xyz/networking/firewalls/bunkerweb "View full BunkerWeb report") 
 - **[<img src='https://opnsense.org/wp-content/themes/OPNsense/assets/ico/favicon.png' width='14' alt='' /> OPNSense](https://opnsense.org)** - Enterprise firewall and router for protecting networks, built on the FreeBSD system. 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > There are different [types](https://www.networkstraining.com/different-types-of-firewalls)
-of firewalls, that are used in different circumstances.
-This does not omit the need to configure your operating systems defences.
-Follow these instructions to enable your firewall in
-[Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off),
-[Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall)
-and other [Linux distros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
-
-Even when properly configured, having a firewall enabled does not guarantee
-bad network traffic can not get through and especially during boot if you
-don't have root privileges.
-
+> of firewalls, that are used in different circumstances.
+> This does not omit the need to configure your operating systems defences.
+> Follow these instructions to enable your firewall in
+> [Windows](https://support.microsoft.com/en-us/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off),
+> [Mac OS](https://support.apple.com/en-us/HT201642), [Ubuntu](https://wiki.ubuntu.com/UncomplicatedFirewall)
+> and other [Linux distros](https://www.tecmint.com/start-stop-disable-enable-firewalld-iptables-firewall).
+>
+> Even when properly configured, having a firewall enabled does not guarantee
+> bad network traffic can not get through and especially during boot if you
+> don't have root privileges.
 
 </details>
 
@@ -853,15 +860,11 @@ detect certain content based on pattern matching
 - **[<img src='https://icon.horse/icon/blokada.org' width='14' alt='' /> Blokada](https://blokada.org/)** - Open source mobile ad-blocker that acts like a firewall. Since it's device-wide, once connected all apps will have ads/ trackers blocked, and the blacklist can be edited. The app is free, but there is[…](https://awesome-privacy.xyz/networking/ad-blockers/blokada "View full Blokada report") 
 - **[<img src='https://rethinkdns.com/ico/app_icon.svg' width='14' alt='' /> RethinkDNS & Firewall](https://rethinkdns.com/app)** - Free and open source ad-blocker and a firewall for Android 6+ (no root required). 
 - **[<img src='https://raw.githubusercontent.com/gorhill/uBlock/master/src/img/ublock.svg' width='14' alt='' /> uBlock Origin](https://github.com/gorhill/uBlock)** - Light-weight, fast browser extension for Firefox and Chromium (Chrome, Edge, Brave Opera etc), that blocks tracking, ads and known malware. uBlock is easy-to-use out-of-the-box, but also has a highly[…](https://awesome-privacy.xyz/networking/ad-blockers/ublock-origin "View full uBlock Origin report") 
+- **[<img src='https://avatars.githubusercontent.com/u/8361145?s=256&v=4' width='14' alt='' /> AdGuard Home](https://adguard.com/en/adguard-home/overview.html)** - Self-hosted, network-wide DNS server that blocks ads and trackers for every device on your network, comparable to Pi-hole. Open source, with a web dashboard, encrypted DNS, and parental controls. Need[…](https://awesome-privacy.xyz/networking/ad-blockers/adguard-home "View full AdGuard Home report") 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
 
-> [AdGuardHome](https://github.com/AdguardTeam/AdGuardHome) is a cross-platform DNS Ad Blocker,
-> similar to Pi Hole, but with some additional features, like parental controls,
-> per-device configuration and the option to force safe search.
-> This may be a good solution for families with young children.
-> 
 > Some VPNs have ad-tracking blocking features, such as
 > [TrackStop with PerfectPrivacy](https://www.perfect-privacy.com/en/features/trackstop?a_aid=securitychecklist).
 > 
@@ -900,11 +903,10 @@ control over security, privacy and performance
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Flashing custom firmware may void your warranty.
-If power is interrupted mid-way through a firmware install/ upgrade it
-is possible for your device to become bricked. So long as you follow a
-guide, and use a well supported system, on a supported router, than it
-should be safe
-
+> If power is interrupted mid-way through a firmware install/ upgrade it
+> is possible for your device to become bricked. So long as you follow a
+> guide, and use a well supported system, on a supported router, than it
+> should be safe
 
 </details>
 
@@ -969,11 +971,10 @@ important.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > The country that your data is hosted in, will be subject to local laws and regulations.
-It is therefore important to avoid a jurisdiction that is part of the
-[5 eyes](https://en.wikipedia.org/wiki/Five_Eyes) (Australia, Canada, New Zealand, US and UK)
-and [other international cooperatives](https://en.wikipedia.org/wiki/Five_Eyes#Other_international_cooperatives)
-who have legal right to view your data.
-
+> It is therefore important to avoid a jurisdiction that is part of the
+> [5 eyes](https://en.wikipedia.org/wiki/Five_Eyes) (Australia, Canada, New Zealand, US and UK)
+> and [other international cooperatives](https://en.wikipedia.org/wiki/Five_Eyes#Other_international_cooperatives)
+> who have legal right to view your data.
 
 </details>
 
@@ -1019,8 +1020,7 @@ who have legal right to view your data.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Self-hosting your own mail server is not recommended for everyone, it can
-be time consuming to setup and maintain and securing it correctly is critical
-
+> be time consuming to setup and maintain and securing it correctly is critical
 
 </details>
 
@@ -1093,10 +1093,9 @@ be time consuming to setup and maintain and securing it correctly is critical
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > You should always ensure that any data stored in the cloud is encrypted.
-If you are hosting your own server, then take the necessary precautions
-to [secure the server](https://med.stanford.edu/irt/security/servers.html).
-For hosted solutions - use a strong password, keep your credentials safe and enable 2FA.
-
+> If you are hosting your own server, then take the necessary precautions
+> to [secure the server](https://med.stanford.edu/irt/security/servers.html).
+> For hosted solutions - use a strong password, keep your credentials safe and enable 2FA.
 
 </details>
 
@@ -1227,6 +1226,14 @@ It is recommended to encrypt files on your client machine, before syncing to the
 
 ---
 
+### Habit Trackers
+
+- **[<img src='https://openhabittracker.net/icons/icon-512.png' width='14' alt='' /> OpenHabitTracker](https://openhabittracker.net)** - Free, open source habit tracker. Take notes, plan tasks, and track habits. All data stored locally or self-hosted via Docker. No accounts required. 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
 ### Secure Conference Calls
 
 With the [many, many security issues with Zoom](https://www.tomsguide.com/uk/news/zoom-security-privacy-woes),
@@ -1252,6 +1259,18 @@ security + privacy required in your situation.
 > and provides high-quality video streaming, multi-user whiteboards,
 > breakout rooms, and instant chat.
 > </details>
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
+### Maps & Navigation
+
+Mainstream mapping apps log your location history, search queries and routes,
+building a detailed picture of where you live, work and travel. A privacy-respecting
+maps app keeps navigation on your device, works offline, and collects nothing about you.
+
+- **[<img src='https://www.comaps.app/favicon.ico' width='14' alt='' /> CoMaps](https://www.comaps.app)** - Community-led, not-for-profit offline maps and navigation app built on OpenStreetMap data. No tracking, ads or data collection; all search and routing happen on-device. A community fork of Organic Map[…](https://awesome-privacy.xyz/productivity/maps-and-navigation/comaps "View full CoMaps report") 
 
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
@@ -1367,7 +1386,7 @@ the disk, before you destroy, sell or give away a hard drive.
 - **[<img src='https://icon.horse/icon/dban.org' width='14' alt='' /> DBAN](https://dban.org)** - Darik's Boot and Nuke ("DBAN") is a self-contained boot disk that securely wipes the hard disks of most computers. DBAN will automatically and completely delete the contents of any hard disk that it c[…](https://awesome-privacy.xyz/utilities/data-erasers/dban "View full DBAN report") 
 - **[<img src='https://icon.horse/icon/github.com' width='14' alt='' /> nwipe](https://github.com/martijnvanbrummelen/nwipe)** - C-based secure light-weight disk eraser, operated through the easy-to-use CLI or a GUI interface. 
 - **[<img src='https://www.gnu.org/favicon.ico' width='14' alt='' /> shred](https://www.gnu.org/software/coreutils/manual/html_node/shred-invocation.html)** - A CLI utility that can be used to securely delete files and devices, to make them extremely difficult to recover. 
-- **[<img src='https://icon.horse/icon/www.systutorials.com' width='14' alt='' /> Secure Remove](https://www.systutorials.com/docs/linux/man/1-srm/)** - CLI utility for securely removing files, directories and whole disks, works on Linux, BSD and MacOS. 
+- **[<img src='https://pixelflare.cc/alicia/icons/srm' width='14' alt='' /> Secure Remove](https://srm.sourceforge.net/srm.html)** - CLI utility for securely removing files, directories and whole disks, works on Linux, BSD and MacOS. 
 - **[<img src='https://drfone.wondershare.com/favicon.ico' width='14' alt='' /> Mr. Phone](https://drfone.wondershare.com)** - Proprietary, closed-source suite of forensic data tools for mobile. The data eraser allows for both Android and iOS to be fully wiped, through connecting them to a PC. 
 
 <details>
@@ -1413,18 +1432,16 @@ is an open source, usually Google-free mobile OS that can be flashed to your dev
 
 - **[<img src='https://grapheneos.org/apple-touch-icon.png' width='14' alt='' /> GrapheneOS](https://grapheneos.org/)** - GrapheneOS is an open source privacy and security focused mobile OS with Android app compatibility. Developed by Daniel Micay. GrapheneOS is a young project, and currently only supports Pixel devices,[…](https://awesome-privacy.xyz/operating-systems/mobile-operating-systems/grapheneos "View full GrapheneOS report") 
 - **[<img src='https://www.lineageos.org/images/logo.png' width='14' alt='' /> LineageOS](https://www.lineageos.org)** - A free and open-source operating system for various devices, based on the Android mobile platform - Lineage is light-weight, well maintained, supports a wide range of devices, and comes bundled with P[…](https://awesome-privacy.xyz/operating-systems/mobile-operating-systems/lineageos "View full LineageOS report") 
-- **[<img src='https://axpos.org/favicon.svg' width='14' alt='' /> AXP.OS](https://axpos.org)** - AXP.OS is an operating system based on AOSP & LineageOS. Emerged from the discontinued [DivestOS](https://divestos-archive.codeberg.page), it aims to prolong the lifespan of discontinued devices, enhance privacy and increase security where po[…](https://awesome-privacy.xyz/operating-systems/mobile-operating-systems/axp.os "View full AXP.OS report") 
 
 <details>
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > It is not recommended to root, or flash your device with a custom ROM if you are not an advanced user.
-There are risks involved
-- Although the above ROMs omit Google, they do open up other security issues: Without DM-verity on the system partition, the file system *could* be tampered with, and no verified boot stack, the kernel/initramfs also *could* be edited. You should understand the risks, before proceeding to flash a custom ROM to your device
-- You will need to rely on updates from the community, which could be slower to be released - this may be an issue for a time-urgent, security-critical patch
-- It is also possible to brick your device, through interrupted install or bad software
-- Finally, rooting and flashing your device, will void your warranty
-
+> There are risks involved
+> - Although the above ROMs omit Google, they do open up other security issues: Without DM-verity on the system partition, the file system *could* be tampered with, and no verified boot stack, the kernel/initramfs also *could* be edited. You should understand the risks, before proceeding to flash a custom ROM to your device
+> - You will need to rely on updates from the community, which could be slower to be released - this may be an issue for a time-urgent, security-critical patch
+> - It is also possible to brick your device, through interrupted install or bad software
+> - Finally, rooting and flashing your device, will void your warranty
 
 </details>
 
@@ -1601,7 +1618,6 @@ See: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-secur
 - **[<img src='https://www.netlimiter.com/favicon.ico' width='14' alt='' /> NetLimiter](https://www.netlimiter.com)** - Internet traffic control and monitoring tool. 
 - **[<img src='https://icon.horse/icon/docs.microsoft.com' width='14' alt='' /> SigCheck](https://docs.microsoft.com/en-us/sysinternals/downloads/sigcheck)** - A CLI utility that shows file version number, timestamp information, and digital signature details. 
 - **[<img src='https://www.bleachbit.org/sites/default/files/zen_classic_logo_0.png' width='14' alt='' /> BleachBit](https://www.bleachbit.org)** - Clears cache and deletes temporary files very effectively. This frees up disk space, improves performance, but most importantly helps to protect privacy. 
-- **[<img src='https://icon.horse/icon/github.com' width='14' alt='' /> Windows Secure Baseline](https://github.com/nsacyber/Windows-Secure-Host-Baseline)** - Group Policy objects, compliance checks, and configuration tools that provide an automated and flexible approach for securely deploying and maintaining the latest releases of Windows 10. 
 - **[<img src='https://www.usb-antivirus.com/wp-content/uploads/2015/12/logo-usbfix-80x80.png.webp' width='14' alt='' /> USBFix](https://www.usb-antivirus.com)** - Detects infected USB removable devices. 
 - **[<img src='http://www2.gmer.net/favicon.ico' width='14' alt='' /> GMER](http://www.gmer.net)** - Rootkit detection and removal utility. 
 - **[<img src='https://schiffer.tech/img/logos/sw.png' width='14' alt='' /> ScreenWings](https://schiffer.tech/screenwings.html)** - Blocks malicious background applications from taking screenshots. 
@@ -1611,16 +1627,15 @@ See: [Windows 10 security guide](https://heimdalsecurity.com/en/windows-10-secur
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > (The above software was last tested on 01/05/20).
-Many of the above tools are not necessary or suitable for beginners,
-and can cause your system to break - only use software that you need,
-according to your threat model. Take care to only download from an
-official/ legitimate source, verify the executable before proceeding,
-and check reviews/ forums.
-Create a system restore point, before making any significant changes to
-your OS (such as disabling core features).
-
-From a security and privacy perspective, Linux may be a better option.
-
+> Many of the above tools are not necessary or suitable for beginners,
+> and can cause your system to break - only use software that you need,
+> according to your threat model. Take care to only download from an
+> official/ legitimate source, verify the executable before proceeding,
+> and check reviews/ forums.
+> Create a system restore point, before making any significant changes to
+> your OS (such as disabling core features).
+>
+> From a security and privacy perspective, Linux may be a better option.
 
 </details>
 
@@ -1657,18 +1672,17 @@ Cross-platform, open source malware detection and virus prevention tools
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > For Microsoft Windows, Windows Defender provides totally adequate virus
-protection in most cases. These tools are intended for single-use in
-detecting/ removing threats on an infected machine, and are not recommended
-to be left running in the background, use portable editions where available.
-
-Many anti virus products have a history of introducing vulnerabilities themselves,
-and several of them seriously degrade the performance of your computer, as well as
-decrease your privacy. Never use a free anti-virus, and never trust the companies
-that offer free solutions, even if you pay for the premium package.
-This includes (but not limited to) Avast, AVG, McAfee and Kasperky.
-For AV to be effective, it needs intermate access to all areas of your PC,
-so it is important to go with a trusted vendor, and monitor its activity closely.
-
+> protection in most cases. These tools are intended for single-use in
+> detecting/ removing threats on an infected machine, and are not recommended
+> to be left running in the background, use portable editions where available.
+>
+> Many anti virus products have a history of introducing vulnerabilities themselves,
+> and several of them seriously degrade the performance of your computer, as well as
+> decrease your privacy. Never use a free anti-virus, and never trust the companies
+> that offer free solutions, even if you pay for the premium package.
+> This includes (but not limited to) Avast, AVG, McAfee and Kasperky.
+> For AV to be effective, it needs intermate access to all areas of your PC,
+> so it is important to go with a trusted vendor, and monitor its activity closely.
 
 </details>
 
@@ -1699,21 +1713,26 @@ so it is important to go with a trusted vendor, and monitor its activity closely
 
 ### IDEs
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/40327449?s=200&v=4' width='14' alt='' /> VSCodium](https://vscodium.com/)** - Free and open source binaries of VS Code, built without Microsoft branding and with community-driven defaults. Extension compatibility can differ from Microsoft's official VS Code build. 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
 
 ### Terminal Emulators
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://alacritty.org/alacritty-simple.svg' width='14' alt='' /> Alacritty](https://alacritty.org/)** - Fast, GPU-accelerated terminal emulator focused on simplicity, performance, and extensive keyboard-driven workflows. 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
 
-### Developer Utilities
+### Developer Tools
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://devtoys.app/favicon.ico' width='14' alt='' /> DevToys](https://devtoys.app/)** - Open-source offline toolbox for developers, with utilities for JSON, YAML, hashes, JWTs, Base64, text comparison and more. Useful alternative to pasting sensitive data into random online tools. 
+- **[<img src='https://www.usebruno.com/favicon.ico' width='14' alt='' /> Bruno](https://www.usebruno.com/)** - Open-source, local-first API client that stores collections as plain text files and works seamlessly with Git. A privacy-focused alternative to cloud-based API tools. 
+- **[<img src='https://avatars.githubusercontent.com/u/246907436?v=4' width='14' alt='' /> gitGost](https://gitgost.fly.dev)** - Push to GitHub anonymously: add gitGost as a git remote and it opens a pull request with your name, email and commit metadata stripped, optionally over Tor. Anonymity isn't perfect, and the hosted ser[…](https://awesome-privacy.xyz/development/developer-tools/gitgost "View full gitGost report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
@@ -1736,9 +1755,8 @@ human voice interface while also protecting your privacy and security
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > If you are building your own assistant, you may want to consider a hardware-switch
-for disabling the microphone. Keep tabs on issues and check the code, to ensure
-you are happy with how it works, from a privacy perspective.
-
+> for disabling the microphone. Keep tabs on issues and check the code, to ensure
+> you are happy with how it works, from a privacy perspective.
 
 </details>
 
@@ -1777,6 +1795,14 @@ you are happy with how it works, from a privacy perspective.
 
 ---
 
+### Security Cameras
+
+- **[<img src='https://avatars.githubusercontent.com/u/271067237?s=400&u=183f42b70679974bfd5b7e0ad0bd12aee0b45d98&v=4' width='14' alt='' /> Secluso](https://secluso.com)** - An open source, end-to-end encrypted home security camera solution (Pi Zero 2W). Easy to setup with GUI deploy tool. Fully E2EE remote access (live streaming & smart motion alerts) via mobile app and[…](https://awesome-privacy.xyz/smart-home-and-iot/security-cameras/secluso "View full Secluso report") 
+
+<p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
+
+---
+
 ## Finance
 
 ### Cryptocurrencies
@@ -1788,22 +1814,21 @@ you are happy with how it works, from a privacy perspective.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Not all cryptocurrencies are anonymous, and without using a privacy-focused coin,
-a record of your transaction will live on a publicly available distributed ledger, forever.
-If you send of receive multiple payments, ensure you switch up addresses or use a mixer,
-to make it harder for anyone trying to trace your transactions.
-Cryptocurrencies that allow private and public transactions may reveal meta
-data about your transactions and balances when funds are moving from
-private to public addresses which can compromise your privacy with methods
-similar to a knapsack problem.
-
-Always store private keys somewhere safe, but offline
-
-Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses.
-If you are new to digital currencies - do your research first, don't invest more than you can afford to loose,
-and be very weary crypto-related scams are very common. as is and cryptocurrency-related malware.
-
-**This is NOT financial advice**
-
+> a record of your transaction will live on a publicly available distributed ledger, forever.
+> If you send of receive multiple payments, ensure you switch up addresses or use a mixer,
+> to make it harder for anyone trying to trace your transactions.
+> Cryptocurrencies that allow private and public transactions may reveal meta
+> data about your transactions and balances when funds are moving from
+> private to public addresses which can compromise your privacy with methods
+> similar to a knapsack problem.
+>
+> Always store private keys somewhere safe, but offline
+>
+> Note: Cryptocurrency prices can go down. Storing any wealth in crypto may result in losses.
+> If you are new to digital currencies - do your research first, don't invest more than you can afford to loose,
+> and be very weary crypto-related scams are very common. as is and cryptocurrency-related malware.
+>
+> **This is NOT financial advice**
 
 </details>
 
@@ -1845,11 +1870,10 @@ be physically tracked (CCTV, phone location, card payments etc)
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Avoid using any online/ hot-wallet, as you will have no control over
-the security of your private keys.
-
-Offline paper wallets are very secure, but ensure you store it
-properly - to keep it safe from theft, loss or damage.
-
+> the security of your private keys.
+>
+> Offline paper wallets are very secure, but ensure you store it
+> properly - to keep it safe from theft, loss or damage.
 
 </details>
 
@@ -1922,11 +1946,10 @@ Not all services are available in all countries.
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Note that credit card providers heavily track transaction metadata, which build
-up a detailed picture of each persons spending habits. This is done both to
-provide improved fraud alerts, but also because the data is extremely valuable
-and is often 'anonymized' and sold to 3rd parties. Hence your privacy is degraded
-if these cards are used for daily transactions
-
+> up a detailed picture of each persons spending habits. This is done both to
+> provide improved fraud alerts, but also because the data is extremely valuable
+> and is often 'anonymized' and sold to 3rd parties. Hence your privacy is degraded
+> if these cards are used for daily transactions
 
 </details>
 
@@ -1951,6 +1974,7 @@ crypto currency or cash, since neither can be easily tied back to your identity.
 - **[<img src='https://raw.githubusercontent.com/mayswind/ezbookkeeping/refs/heads/main/public/img/ezbookkeeping-512.png' width='14' alt='' /> ezBookkeeping](https://ezbookkeeping.mayswind.net/)** - A lightweight, self-hosted personal finance app for recording daily transactions and analyzing spending patterns. Self-hosted, with all data staying on your own server. Supports 2FA and OICD. 
 - **[<img src='https://raw.githubusercontent.com/actualbudget/actual/a2267c480647bf01f1cae302292a8a237846124c/packages/desktop-electron/icons/icon.png' width='14' alt='' /> Actual](https://actualbudget.org/)** - A local-first personal finance app 
 - **[<img src='https://raw.githubusercontent.com/TNT-Likely/BeeCount/main/assets/logo2.png' width='14' alt='' /> BeeCount](https://beecount-website.pages.dev)** - Privacy-first cross-platform personal expense tracker (Android/iOS/Web) with offline-first design. Multi-cloud sync options — self-hosted BeeCount Cloud, iCloud, Supabase, WebDAV or S3 — keep data und[…](https://awesome-privacy.xyz/finance/secure-budgeting/beecount "View full BeeCount report") 
+- **[<img src='https://raw.githubusercontent.com/rotki/rotki/develop/frontend/app/public/assets/images/rotkehlchen_no_text.png' width='14' alt='' /> rotki](https://rotki.com)** - A self-hosted, opensource, privacy-first portfolio tracking and accounting tool for crypto and more. Support for all 3 major Operating systems and docker. The tool focus is on data self-sovereignty. 
 
 <details>
 <summary>✳️ <b>Notable Mentions</b></summary>
@@ -2026,8 +2050,7 @@ so should be avoided, but if you choose to keep using them see
 <summary>⚠️ <b>Word of Warning</b></summary>
 
 > Without moderation, some of these platforms accommodate video creators
-whose content may not be appropriate for all audiences
-
+> whose content may not be appropriate for all audiences
 
 </details>
 
@@ -2113,7 +2136,6 @@ or tracking (unless otherwise stated).
 
 > When proxies are involved - only use reputable services, and **never** enter any personal information
 
-
 </details>
 
 <details>
@@ -2140,7 +2162,8 @@ TikTok, and more.*
 
 ### Gaming
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/77549103?s=256&v=4' width='14' alt='' /> Heroic Games Launcher](https://heroicgameslauncher.com)** - Open source game launcher for the Epic Games Store, GOG and Amazon Prime Gaming on Linux, Windows and Mac. Replaces the official proprietary clients, though it still connects to your third-party store[…](https://awesome-privacy.xyz/media/gaming/heroic-games-launcher "View full Heroic Games Launcher report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
@@ -2161,14 +2184,17 @@ TikTok, and more.*
 
 ### Video Players
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/1389585?s=256&v=4' width='14' alt='' /> VLC Media Player](https://www.videolan.org/vlc/)** - Free, cross-platform media player from the non-profit VideoLAN project. Plays almost any audio or video format locally, with no ads, trackers or telemetry. VLC has many powerful features and settings,[…](https://awesome-privacy.xyz/media/video-players/vlc-media-player "View full VLC Media Player report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
 
-### Photo Viewers
+### Photo Management
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/109746326?s=256&v=4' width='14' alt='' /> Immich](https://immich.app)** - Self-hosted photo and video backup and management server, with automatic mobile upload, timeline view, albums, search and facial recognition. Needs to be self-hosted, but gives you full ownership + co[…](https://awesome-privacy.xyz/media/photo-management/immich "View full Immich report") 
+- **[<img src='https://ente.com/assets/ente-photos-icon-transparent.png' width='14' alt='' /> Ente Photos](https://ente.com)** - Provides an open source, audited end-to-end encrypted platform to store photos in the cloud without needing to trust the service provider. With apps for desktop, web and mobile, album sharing, public[…](https://awesome-privacy.xyz/media/photo-management/ente-photos "View full Ente Photos report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
@@ -2182,14 +2208,16 @@ TikTok, and more.*
 
 ### Podcast Players
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/10713470?s=256&v=4' width='14' alt='' /> AntennaPod](https://antennapod.org)** - An open-source podcast manager for Android. Subscribe to any RSS feed, with offline downloads, variable playback speed, and optional gpodder.net or Nextcloud sync. Contains no ads or trackers, but is[…](https://awesome-privacy.xyz/media/podcast-players/antennapod "View full AntennaPod report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
 
 ### Torrent Downloaders
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/2131270?s=256&v=4' width='14' alt='' /> qBittorrent](https://www.qbittorrent.org)** - A cross-platform BitTorrent client with built-in torrent search, RSS feeds, and an optional web interface. It contains no ads or bundled software. As with any BitTorrent client, your IP address is vis[…](https://awesome-privacy.xyz/media/torrent-downloaders/qbittorrent "View full qBittorrent report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
@@ -2252,7 +2280,8 @@ TikTok, and more.*
 
 ### Screenshot Tools
 
-<p  align="center"><b>⚠️ This section is still a work in progress ⚠️</b><br /><i>Check back soon, or help us complete it by submitting a pull request</i></p>
+- **[<img src='https://avatars.githubusercontent.com/u/5548736?s=256&v=4' width='14' alt='' /> ShareX](https://getsharex.com)** - Open-source screen-capture tool for Windows. Takes screenshots and short screen recordings, with annotation, OCR, a colour picker, and configurable save/upload destinations. Note that (if configured)[…](https://awesome-privacy.xyz/creativity/screenshot-tools/sharex "View full ShareX report") 
+
 <p align="right"><sup><a href="#top">⬆️ [Back to Top]</a></sub></p>
 
 ---
